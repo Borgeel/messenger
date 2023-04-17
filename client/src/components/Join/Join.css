@@ -1,0 +1,41 @@
+.join-container {
+  padding: 16px;
+
+  text-align: center;
+}
+
+.join-input[type="text"],
+.join-input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+
+  display: inline-block;
+
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+
+  border-radius: 5px;
+}
+
+.join-header {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.join-button {
+  background-color: #04aa6d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+}

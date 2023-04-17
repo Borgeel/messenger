@@ -1,0 +1,45 @@
+.outer-container {
+  margin: auto;
+  margin-top: 1.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 500px;
+  height: 500px;
+  background-color: red;
+
+  border-radius: 5px;
+}
+
+.inner-container {
+  height: 490px;
+  width: 490px;
+
+  background-color: purple;
+}
+
+.chat-header {
+  height: 50px;
+  background-color: green;
+}
+
+.chat-box {
+  background-color: pink;
+
+  height: 390px;
+}
+
+.message-box {
+  height: 50px;
+  padding: 0.4rem;
+  margin-right: 0rem 0.2rem 0.2rem 0rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.message {
+  width: 100%;
+}
