@@ -15,6 +15,12 @@ const Chat = () => {
     setRoom(room);
 
     socket.emit("join", { name, room });
+
+    return () => {
+      // socket.disconnect();
+
+      socket.off();
+    };
   }, [URL, name, room]);
 
   return (
